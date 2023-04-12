@@ -1,0 +1,267 @@
+*{
+   font-family: 'Poppins', sans-serif;
+}
+
+.cleanenergy-text br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: -15px; /* change this to whatever height you want it */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#fff;
+    padding:0.5rem 1%;
+    padding-bottom: 10px;
+    box-shadow: 0 1rem 1rem   rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* clip-path: polygon(100% 0, 100% 35%, 0 20%, 0 0); */
+    
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:#333;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+header .logo span{
+    color:rgb(242, 255, 0);
+}
+
+header .navbar a{
+    color:#333;
+    font-size: 1.5rem;
+   margin-right: 50px;
+   text-decoration: none;
+}
+
+header .navbar a:hover{
+    color:lightseagreen;
+}
+
+.home{
+    min-height: 100vh;
+    background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)),url(./images/Background.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+   
+    
+}
+
+.welcome-box{
+    margin-top: 100px;
+    text-align: center;
+    width: 1200px;
+    height: 300px; 
+    margin-bottom: 200px;
+}
+.welcome-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+        font-weight: bold;
+        font-size: 50px;
+        color: #5c0287
+}
+
+.welcome-para {
+    font-size:18px;
+    font-weight: lighter;
+    color: #5c0287;
+
+}
+
+
+.didyouknow-box {
+    border: none;
+    height: 600px;
+    width: 1200px;
+    border-radius: 25px;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    background-size: cover;
+    overflow:visible;
+    background-size: cover;
+    background-color: #e7ffce;
+    
+}
+
+.didyouknow-text {
+    display: inline-block;
+   color: #fff;
+   position: relative;
+   left:100px;
+   bottom: 150px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 250px;
+   font-weight: bold;
+   font-size: 16px;
+   background-color: #4bb514;
+   border-radius: 130px;
+   
+}
+
+.solarpanel-img {
+    position:relative;
+    height: 600px;
+    width: 800px;
+    bottom: 350px;
+    left: 300px;
+    
+}
+
+.cleanenergy-text {
+    position: relative;
+    color: #265d0a;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    top: 50px;
+    right: 220px;
+    
+}
+.solarenergy-text {
+    display: inline-block;
+    position: relative;
+    top: 220px;
+    right: 607px;
+}
+.knowmore-btn {
+    position: relative;
+    bottom: 400px;
+    left: 120px;
+    background-color:#4ab814;
+    color: #fff;
+    cursor:pointer;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 100px;
+    border: none;
+    width: 250px;
+    font-size: 15px;
+}
+.knowmore-btn:hover {
+    background-color:coral;
+}
+
+.graph-data {
+    background-color:#e7ffce;
+
+    height: 800px;
+    width: 1505px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.head-img {
+    position: relative;
+    height: 500px;
+    left: -150px;
+    
+    
+}
+.head-text1 {
+    position: relative;
+    top:-700px;
+    left: -400px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.head-text2 {
+    position: relative;
+    top:-725px;
+    left: 950px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.head-text3 {
+    position: relative;
+    top:-320px;
+    left: 0px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.head-text4 {
+    position: relative;
+    top:-320px;
+    left: 20px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.graph-img1 {
+    position: relative;
+    bottom: 150px;
+    left: -260px;
+    height: 250px;
+    border-radius: 20px;
+   
+    
+}
+
+.graph-img2 {
+    position: relative;
+    bottom: 150px;
+    left: -150px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.graph-img3 {
+    position: relative;
+    bottom: 10px;
+    left: 420px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.graph-img4 {
+    position: relative;
+    bottom: 10px;
+    left: 540px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.graph-img5 {   
+    margin-top: 10px;
+   position: relative;
+   left: 500px;
+   background-color: #e7ffce;
+   border-radius: 20px;
+   
+}
+
+
