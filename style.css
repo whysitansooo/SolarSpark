@@ -163,7 +163,7 @@ header .navbar a:hover{
 }
 
 .graph-data {
-     background-color:#e7ffce;
+    background-color:#e7ffce;
 
     height: 800px;
     width: 1505px;
@@ -226,17 +226,26 @@ header .navbar a:hover{
     bottom: 150px;
     left: -260px;
     height: 250px;
-    border-radius: 20px;
-   
-    
+    border-radius: 20px; 
+    transform: scale(1); 
+    transition: .3s ease-in-out;
 }
-
+.graph-img1:hover {
+    transform: scale(1.1);
+   
+}
 .graph-img2 {
     position: relative;
     bottom: 150px;
     left: -150px;
     height: 250px;
     border-radius: 20px;
+    transform: scale(1); 
+    transition: .3s ease-in-out;
+}
+
+.graph-img2:hover {
+    transform: scale(1.1);
 }
 
 .graph-img3 {
@@ -245,6 +254,12 @@ header .navbar a:hover{
     left: 420px;
     height: 250px;
     border-radius: 20px;
+    transform: scale(1); 
+    transition: .3s ease-in-out;
+}
+
+.graph-img3:hover {
+    transform: scale(1.1);
 }
 
 .graph-img4 {
@@ -253,8 +268,13 @@ header .navbar a:hover{
     left: 540px;
     height: 250px;
     border-radius: 20px;
+    transform: scale(1); 
+    transition: .3s ease-in-out;
 }
 
+.graph-img4:hover {
+    transform: scale(1.1);
+}
 .graph-img5 {   
     margin-top: 10px;
    position: relative;
